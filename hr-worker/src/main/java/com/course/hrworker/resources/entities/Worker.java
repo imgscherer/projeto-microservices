@@ -1,4 +1,4 @@
-package com.course.hrworker.entities;
+package com.course.hrworker.resources.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;

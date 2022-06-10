@@ -1,6 +1,6 @@
 package com.course.hrworker.services;
 
-import com.course.hrworker.entities.Worker;
+import com.course.hrworker.resources.entities.Worker;
 import com.course.hrworker.repositories.WorkerRepository;
 import com.course.hrworker.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
