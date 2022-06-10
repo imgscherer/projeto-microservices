@@ -1,6 +1,6 @@
 package com.course.hrworker.resources;
 
-import com.course.hrworker.resources.entities.Worker;
+import com.course.hrworker.entities.Worker;
 import com.course.hrworker.services.WorkerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +31,12 @@ public class WorkerResource {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<Worker> findById(@PathVariable Long id){
+
+        //try {
+            //Thread.sleep(3000L);
+        //} catch (InterruptedException e) {
+            //e.printStackTrace();
+        //}
 
         logger.info("PORT = " + env.getProperty("local.server.port"));
 
